@@ -1,0 +1,21 @@
+1401 Pennsylvania Avenue Northwest;WAS;1.85;11;13;$33.00;$37.44;$50.00;$60.00;$150.00;-;lx;-;N;12/25/15
+1401 Pennsylvania Avenue Northwest;WAS;1.85;15;13;$33.00;$55.81;$50.00;$60.00;$150.00;-;lx;-;N;12/25/15
+1401 Pennsylvania Avenue Northwest;WAS;1.85;23;13;$33.00;$41.18;$50.00;$60.00;$150.00;-;lx;-;N;12/25/15
+DCA;1694 31st Street Northwest, Washington;5.79;11;11;$40.00;$46.90;$60.00;$71.00;$152.00;LABORDAY;lx;INSIDE;Y;12/25/15
+DCA;1694 31st Street Northwest, Washington;5.79;15;11;$40.00;$68.99;$60.00;$71.00;$152.00;LABORDAY;lx;INSIDE;Y;12/25/15
+DCA;1694 31st Street Northwest, Washington;5.79;23;11;$40.00;$51.59;$60.00;$71.00;$152.00;LABORDAY;lx;INSIDE;Y;12/25/15
+IAD;1401 Pennsylvania Avenue Northwest;27.03;11;12;$84.00;$97.88;$128.00;$145.00;$247.00;LABORDAY;lx;INSIDE;Y;12/25/15
+IAD;1401 Pennsylvania Avenue Northwest;27.03;15;12;$84.00;$133.59;$128.00;$145.00;$247.00;LABORDAY;lx;INSIDE;Y;12/25/15
+IAD;1401 Pennsylvania Avenue Northwest;27.03;23;12;$84.00;$107.67;$128.00;$145.00;$247.00;LABORDAY;lx;INSIDE;Y;12/25/15
+1401 Pennsylvania Avenue Northwest;Union Station_Washington;1.85;11;13;$33.00;$37.44;$50.00;$60.00;$150.00;-;lx;-;N;12/25/15
+1401 Pennsylvania Avenue Northwest;Union Station_Washington;1.85;15;13;$33.00;$55.81;$50.00;$60.00;$150.00;-;lx;-;N;12/25/15
+1401 Pennsylvania Avenue Northwest;Union Station_Washington;1.85;23;13;$33.00;$41.18;$50.00;$60.00;$150.00;-;lx;-;N;12/25/15
+BWI;550 C Street Southwest, Washington;33.74;11;14;$98.00;$113.98;$151.00;$169.00;$278.00;-;lx;OUTSIDE;Y;12/25/15
+BWI;550 C Street Southwest, Washington;33.74;15;14;$98.00;$151.74;$151.00;$169.00;$278.00;-;lx;OUTSIDE;Y;12/25/15
+BWI;550 C Street Southwest, Washington;33.74;23;14;$98.00;$125.38;$151.00;$169.00;$278.00;-;lx;OUTSIDE;Y;12/25/15
+BWI;21611 Atlantic Blvd, Sterling, VA;60.35;11;15;$157.00;$177.85;$242.00;$267.00;$404.00;-;lx;OUTSIDE;Y;12/25/15
+BWI;21611 Atlantic Blvd, Sterling, VA;60.35;15;15;$157.00;$213.42;$242.00;$267.00;$404.00;-;lx;INSIDE;Y;12/25/15
+BWI;21611 Atlantic Blvd, Sterling, VA;60.35;23;15;$157.00;$195.64;$242.00;$267.00;$404.00;-;lx;OUTSIDE;Y;12/25/15
+IAD;1200 East Cary Street, Richmond, VA;122.3;11;16;$271.00;$438.46;$417.00;$456.00;$647.00;-;lx;INSIDE;Y;12/25/15
+IAD;1200 East Cary Street, Richmond, VA;122.3;15;16;$271.00;$526.15;$417.00;$456.00;$647.00;-;lx;INSIDE;Y;12/25/15
+IAD;1200 East Cary Street, Richmond, VA;122.3;23;16;$271.00;$482.31;$417.00;$456.00;$647.00;-;lx;INSIDE;Y;12/25/15

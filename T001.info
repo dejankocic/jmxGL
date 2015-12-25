@@ -1,0 +1,32 @@
+Test ID : T001
+Test Name : Anonymously booking ride
+Test Scenario: Anonymous user uses WEB to book a ride without creating username/password, pays with CC
+Test repetition: Maximum 600 sequential bookings, stops when all sample data are used 
+
+Test Requirements: 
+Database - none
+Sample data - T001.data a CSV file with ; as separator, Tnnn-data.xls(sheetT001) can be used for easier creation.
+
+Data
+Sample data are populated with
+- id - any number , it is used for creation of traveler phone#,( has to be over 1000 )
+- fname - First name
+- lname - Last name
+- email - email address
+- puloc - Pick Up location
+- doloc - Drop Off location
+- hh - Hours for PU
+- mm - Minutes for PU
+- pudate - Date for PU ( format MM/DD/YYYY)
+
+Other Default values
+creditCardSpec.type = VISA
+TravelerCreditCard# = 4111 1111 1111 1111
+TravelerPhone = 212300id ( see id definition)
+CCexpirationMonth = 12
+CCexpirationYear = 19
+CCzipCode = 10024
+CCsecurityCode = 123
+SelectedCar = first from the list, usually LX
+
+Test result: Have to login to admin app to see booked rides

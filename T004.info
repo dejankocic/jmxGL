@@ -1,0 +1,30 @@
+Test ID : T004
+Test Name : LogIn_Booking_Logout
+Test Scenario: Registered user uses WEB to book a ride, user is employee with personal CC, booking will be done using PCC
+Test repetition: Maximum 300 sequential bookings, stops when all sample data are used (currently 70 in sample data)
+
+Test Requirements: 
+Database - registered user/employee on account/with valid PCC card
+Sample files 
+      - T004_rides.data a CSV file with ; as separator, 
+      - T004_user.data a CSV file with ; as separator, 
+      Tnnn-data.xls(sheets T004_rides, T004_user) can be used for easier creation.
+      
+Sample Data
+Sample T004_rides.data are populated with
+- PU address	= Pick Up location
+- DO address	= Drop Off location
+- hh - Hours for PU
+- mm - Minutes for PU
+- Promocode	= promocode (NOT USED YET)
+- Car	- vehicle type 
+- In-OUT	- if airport is PU , where to wait passenger (NOT USED YET)
+- aeroport	- if it is a ride "From Airport" (NOT USED YET)
+- Date - Date for PU ( format MM/DD/YYYY)
+
+Sample T004_user.data are populated with
+- email - email address for login
+- password = user for login
+
+
+Test result: Have to login to web app to see booked rides (personal account!)

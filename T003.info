@@ -1,0 +1,18 @@
+Test ID : T003
+Test Name : Create web user
+Test Scenario: User uses WEB to Register For a GroundLink Account
+Test repetition: Maximum 100 sequential bookings, stops when all sample data are used 
+
+Test Requirements: 
+Database - none
+Sample data - T003.data a CSV file with ; as separator, Tnnn-data.xls(sheetT003) can be used for easier creation.
+
+Data
+Sample data are populated with
+- fname - First name
+- lname - Last name
+- email - email address
+- phone - phone number
+- password - web password
+
+Test result: Have to login to admin app to see new users or try to login to the web

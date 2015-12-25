@@ -1,0 +1,70 @@
+Test ID : T002
+Test Name : Add a new account with 2 employees
+Test Scenario: User uses WEB to add a new aacount and 2 customers/employees , one with ability to uses company CC, and other who must use personal CC
+Test repetion: 1
+Note: If test is started more then 1 time no additional accounts will be created
+
+Test Requirements: 
+Database - none
+Sample data - none
+
+Data
+Account
+Other Default values
+customer.firstName	Autotestgd		
+customer.lastName	Lasttestgd		
+jobTitle	CEO		
+email	test002@gdtest.com		
+phone	+1 212-299-9300	
+customer.webPassword	pass4gdtest		
+confirmPassword	pass4gdtest		
+companyName	AUTOTESTGD  Company		
+address.strNo	1313		
+address.strName	Test Street		
+address.apt	1414		
+address.city	New York		
+address.zipcode	10094		
+address.area	NY		
+address.remark	US		
+fopDTO.fop	VI		
+fopDTO.fopNumber	4005519200000004		
+fopDTO.memberName	Test GD		
+expMonth	12		
+expYear	2019		
+fopDTO.zipcode	10094		
+fopDTO.cvv2	321		
+
+1st employeee
+chAccount false
+employee.firstName	AutotestGD		
+employee.lastName	Canuseccc		
+employee.email	autotestCCC@gdtest.com		
+employee.phone	+1 212-300-2015
+employee.roleLabel	EMPLOYEE		
+employee.jobTitle	CanUseCCC		
+employee.canPayWithAccount	true		
+haveCard	false	
+sendEmail	true
+
+
+2nd employeee
+chAccount	false		
+fopDTO.fop	VI		
+employee.firstName	AutotestGD		
+employee.lastName	Mustusepcc		
+employee.email	autotestPCC@gdtest.com		
+employee.phone	+1 212-300-2016
+employee.roleLabel	EMPLOYEE		
+employee.jobTitle	MustUsePCC		
+employee.canPayWithAccount false
+haveCard true	
+fopDTO.fopNumber	4111111111111111		
+fopDTO.memberName	Mustuse Personal		
+expMonth	12		
+expYear	2019		
+fopDTO.zipcode	10094		
+fopDTO.cvv2	321		
+sendEmail			
+
+
+Test result: Have to login to admin app to see opened account

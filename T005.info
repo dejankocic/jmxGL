@@ -1,0 +1,28 @@
+Test ID : T005
+Test Name : AnonymBaseFares
+Test Scenario: Anonymous user uses WEB to get quote for a ride
+Test repetition: 18 sequential quote (
+
+Test Requirements: 
+Database - none
+Sample files 
+      - T005.data 
+      Tnnn-data.xls(sheets T005) can be used for easier creation.
+      
+Sample Data
+Sample T005.data are populated with
+- PU address	= Pick Up location
+- DO address	= Drop Off location
+- hh - Hours for PU
+- mm - Minutes for PU
+- bf_bd	- expected base fare for BD(ECONOMY) vehicle type
+- bf_lx	- expected base fare for LX(LUXURY) vehicle type	
+- bf_vip	- expected base fare for VIP(VIP SEDAN) vehicle type	
+- bf_suv6	- expected base fare for SUV6(SUV) vehicle type	
+- bf_me	- expected base fare for ME(MERCEDES BENZ) vehicle type
+- pudate - Date for PU ( format MM/DD/YYYY)
+
+
+Test result: generated HTML file T005-testResult.html (under JMeter bin directory)
+
+*NOTE* - This jmx uses some of the "Standard Set" plugins downloaded from http://jmeter-plugins.org (see http://jmeter-plugins.org/wiki/StandardSet/)
