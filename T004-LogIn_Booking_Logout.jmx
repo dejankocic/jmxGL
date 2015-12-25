@@ -625,6 +625,7 @@
             <stringProp name="RESPONSE_DATA">&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;Found base fare&lt;/td&gt;&lt;td&gt;${BD_price}&lt;/td&gt;&lt;td&gt;${LX_price}&lt;/td&gt;&lt;td&gt;${VIP_price}&lt;/td&gt;&lt;td&gt;${SUV6_price}&lt;/td&gt;&lt;td&gt;${ME_price}&lt;/td&gt;&lt;/tr&gt;</stringProp>
             <stringProp name="RESPONSE_TIME">1</stringProp>
             <stringProp name="LATENCY">0</stringProp>
+            <stringProp name="CONNECT"></stringProp>
           </kg.apc.jmeter.samplers.DummySampler>
           <hashTree>
             <BeanShellPreProcessor guiclass="TestBeanGUI" testclass="BeanShellPreProcessor" testname="BeanShell PreProcessor" enabled="true">
@@ -1655,6 +1656,7 @@ for (int i=1; i&lt;=count; i++){
             <stringProp name="RESPONSE_DATA"></stringProp>
             <stringProp name="RESPONSE_TIME">1</stringProp>
             <stringProp name="LATENCY">0</stringProp>
+            <stringProp name="CONNECT"></stringProp>
           </kg.apc.jmeter.samplers.DummySampler>
           <hashTree>
             <kg.apc.jmeter.reporters.FlexibleFileWriter guiclass="kg.apc.jmeter.reporters.FlexibleFileWriterGui" testclass="kg.apc.jmeter.reporters.FlexibleFileWriter" testname="jp@gc - Flexible File Writer" enabled="true">
