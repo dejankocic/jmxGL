@@ -1,0 +1,30 @@
+Test ID : T007
+Test Name : T007-SendGPSLocs
+Test Scenario: Send GPS locations for drivers (firts log-in as a driver to get a token)
+Test repetition: number of GPS locations in the sample data
+
+Test Requirements: 
+Database - registered drivers with DA credentials
+Sample files 
+      - T007_drivers.data a CSV file with ; as separator, 
+      - T007_gpslocs.data a CSV file with ; as separator, 
+      Tnnn-data.xls(T007_gps, T007_drivers) can be used for easier creation.
+      
+Sample Data
+Sample T007_drivers.data are populated with
+- driver name 
+- driver password
+ 
+Sample T007_gpslocs.data are populated with
+- driver	- driver name 
+- lat	- Latitude component for GPS location
+- lon	- Longitude component for GPS location
+- hacc	- horizontal accuracy
+- vacc  - vertical accuracy
+
+Test result: 
+- none, I don't know app where someone can track driver positions except mobile app
+
+*NOTE* - First sending  of the GPS location for particular driver is always failed, 
+because token is not yet validated at that time, further sendings are OK.
+
